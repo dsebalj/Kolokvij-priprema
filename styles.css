@@ -37,3 +37,9 @@ td.green {
 td.purple {
     background-color: hsla(282, 100%, 50%, 90%);
 }
+label {
+    font-weight: bold;
+}
+input.fullwidth {
+    width: 100%;
+}

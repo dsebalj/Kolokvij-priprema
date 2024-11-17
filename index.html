@@ -40,26 +40,40 @@
                         <input type="text" id="web"><br><br>
                         <label>Kolokvij</label>
                         <br>
-                        <select>
-                            <option value="k1">K1</option>
-                            <option value="k2">K2</option>
-                            <option value="k3">K3</option>
-                        </select>
+                        <form>
+                            <input type="radio" id="k1" name="kolokvij" value="k1">
+                            <label for="k1">K1</label><br>
+                            <input type="radio" id="k2" name="kolokvij" value="k2">
+                            <label for="k2">K2</label><br>
+                            <input type="radio" id="k3" name="kolokvij" value="k3">
+                            <label for="k3">K3</label><br>
+                        </form>
                         <br><br>
                         <label>Gradivo:</label>
                         <br>
-                        <select>
-                            <option value="tablice">Tablice</option>
-                            <option value="forme">Forme</option>
-                            <option value="animacija">Animacija</option>
-                            <option value="video">Video</option>
-                        </select>
+                        <form>
+                            <input type="checkbox" id="tablice" name="gradivo" value="tablice">
+                            <label for="tablice">Tablice</label><br>
+                            <input type="checkbox" id="forme" name="gradivo" value="forme">
+                            <label for="forme">Forme</label><br>
+                            <input type="checkbox" id="animacija" name="gradivo" value="animacija">
+                            <label for="animacija">Animacija</label><br>
+                            <input type="checkbox" id="video" name="gradivo" value="video">
+                            <label for="video">Video</label><br>
+                        </form>
                         <br><br>
                         <label>Koju ocjenu očekuješ?</label>
                         <br>
                         <input type="text" id="ocjena">
                         <br><br>
-                        <button type="button" onclick="alert('Unos uspješan!')">Zalijepi!</button>
+                        <form>
+                            <label for="favcolor">Odaberite boju:</label>
+                            <br>
+                            <input class="fullwidth" type="color" id="favcolor" name="favcolor" value="#ff0000">
+                        </form>
+                        <br>
+                        <button type="button" onclick="alert('Akcija poništena')">Poništi</button>
+                        <button type="button" onclick="alert('Unos uspješan')">Prihvati</button>
                     </fieldset>
                 </form>
             </td>
