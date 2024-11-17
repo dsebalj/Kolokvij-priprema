@@ -1,0 +1,23 @@
+body {
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#outerTable {
+    width: 700px;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 255);
+    opacity: 0.8;
+}
+#innerTable {
+
+}
+th, td {
+    border:1px solid black;
+    border-style: outset;
+}
+ul {
+    list-style-type: upper-latin
+}
